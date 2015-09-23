@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=GPS_Tracker.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\GPS_Tracker -TC:\CooCox\CoIDE\configuration\ProgramData\GPS_Tracker/arm-gcc-link.ld -g">
+      <target file="GPS_Tracker.elf" lastModified="14ff95316a6">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14ff92592f6"/>
+         <source file="..\obj\peripheral_config.o" lastModified="14ff9512d71"/>
+         <source file="..\obj\main.o" lastModified="14ff9531455"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14ff92593ff"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14ff92594ab"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14ff9259557"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="14ff9259631"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="14ff925970b"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="14ff9259843"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="14ff92598ef"/>
+         <source file="..\obj\sim908.o" lastModified="14ff92ceffa"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="14ff92d5b98"/>
+      </target>
+   </processor>
+</history>
