@@ -1,40 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc 4.8.0 i686-w64-mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F031G4 -DSTM32F0XX_LD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker\Firmware\stm32_lib -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker\Firmware\cmsis_core -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker\Firmware -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker\Firmware\stm32_lib\inc -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN\GpsTracker\Firmware\cmsis_boot -I..\..\..\..\..\Users\SB233390\Documents\Work\MySVN">
-      <target file="stm32f0xx_syscfg.o" lastModified="14ff92598ef">
+      <target file="stm32f0xx_it.o" lastModified="1515827e2e1">
+         <source file="..\..\..\stm32f0xx_it.c" lastModified="1515827ccb2"/>
+      </target>
+      <target file="stm32f0xx_syscfg.o" lastModified="15157e63bfb">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="14fd149d500"/>
       </target>
-      <target file="peripheral_config.o" lastModified="14ff9512d71">
-         <source file="..\..\..\peripheral_config.c" lastModified="14ff92f8f26"/>
+      <target file="peripheral_config.o" lastModified="151581ca838">
+         <source file="..\..\..\peripheral_config.c" lastModified="151581ca52c"/>
       </target>
-      <target file="stm32f0xx_gpio.o" lastModified="14ff9259557">
+      <target file="stm32f0xx_gpio.o" lastModified="15157e63798">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14fd149c241"/>
       </target>
-      <target file="stm32f0xx_rcc.o" lastModified="14ff92592f6">
+      <target file="stm32f0xx_rcc.o" lastModified="15157e6342e">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14fd149c268"/>
       </target>
-      <target file="stm32f0xx_usart.o" lastModified="14ff925970b">
+      <target file="stm32f0xx_usart.o" lastModified="15157e6395c">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="14fd149c220"/>
       </target>
-      <target file="stm32f0xx_misc.o" lastModified="14ff92d5b98">
+      <target file="stm32f0xx_misc.o" lastModified="15157e63cd5">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="14ff92d4125"/>
-      </target>
-      <target file="main.o" lastModified="14ff9531455">
-         <source file="..\..\..\main.c" lastModified="14ff9531168"/>
       </target>
       <target file="sim908.o" lastModified="14ff92ceffa">
          <source file="..\..\..\sim908.c" lastModified="14fd6dcf2b7"/>
       </target>
-      <target file="stm32f0xx_tim.o" lastModified="14ff9259843">
+      <target file="main.o" lastModified="15157e63602">
+         <source file="..\..\..\main.c" lastModified="15061bc6ba8"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="15157e63a65">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="14fd149c792"/>
       </target>
       <target file="startup_stm32f0xx.o" lastModified="14ff92593ff">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14fd149c277"/>
       </target>
-      <target file="system_stm32f0xx_temp.o" lastModified="14ff92594ab">
+      <target file="system_stm32f0xx_temp.o" lastModified="15157e636dd">
          <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14fd149c2c4"/>
       </target>
-      <target file="stm32f0xx_rtc.o" lastModified="14ff9259631">
+      <target file="stm32f0xx_rtc.o" lastModified="15157e63872">
          <source file="..\..\..\stm32_lib\src\stm32f0xx_rtc.c" lastModified="14fd149de1a"/>
       </target>
    </processor>
